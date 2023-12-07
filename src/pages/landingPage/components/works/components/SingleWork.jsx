@@ -38,14 +38,14 @@ function SingleWork() {
               A concise eCommerce platform using React and Tailwind CSS,
               showcasing my strong proficiency in React development.
             </p>
-            <div className="flex space-x-3">
+            <div className="flex flex-wrap mt-8">
               <a
                 href="https://simple-ecommerce.vercel.app/"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="cursor-pointer"
+                className="cursor-pointer mr-3"
               >
-                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
+                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mb-2 group hover:bg-myBlue transition-all duration-300">
                   <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
                     Live demo
                   </h4>
@@ -67,7 +67,7 @@ function SingleWork() {
                 rel="noopener noreferrer"
                 className="cursor-pointer"
               >
-                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
+                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mb-2 group hover:bg-myBlue transition-all duration-300">
                   <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
                     View code
                   </h4>
