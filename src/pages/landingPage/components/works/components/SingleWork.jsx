@@ -45,8 +45,8 @@ function SingleWork() {
                 rel="noopener noreferrer"
                 className="cursor-pointer mr-3"
               >
-                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mb-2 group hover:bg-myBlue transition-all duration-300">
-                  <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
+                <div className="cursor-pointer flex px-2 py-2 md:px-4 md:py-3 border-2 border-myBlue border-solid w-fit mb-2 group hover:bg-myBlue transition-all duration-300">
+                  <h4 className="text-md font-bold text-myBlue group-hover:text-white">
                     Live demo
                   </h4>
                   <img
@@ -67,8 +67,8 @@ function SingleWork() {
                 rel="noopener noreferrer"
                 className="cursor-pointer"
               >
-                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mb-2 group hover:bg-myBlue transition-all duration-300">
-                  <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
+                <div className="cursor-pointer flex px-2 py-2 md:px-4 md:py-3 border-2 border-myBlue border-solid w-fit mb-2 group hover:bg-myBlue transition-all duration-300">
+                  <h4 className="text-md font-bold text-myBlue group-hover:text-white">
                     View code
                   </h4>
                   <img
