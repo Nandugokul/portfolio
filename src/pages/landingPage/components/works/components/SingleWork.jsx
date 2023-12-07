@@ -6,8 +6,8 @@ import liveDemoWhite from "../../../../../../public/assets/icons/liveDemoWhiteIc
 function SingleWork() {
   return (
     <>
-      <section className=" md:flex mt-8 md:mt-14">
-        <div className="w-full md:w-1/2 h-full">
+      <section className=" md:flex mt-8 md:mt-14 pb-2">
+        <div className="w-full md:w-1/2 h-auto">
           <a
             href="https://simple-ecommerce.vercel.app/"
             target="_blank"
@@ -17,7 +17,7 @@ function SingleWork() {
             <img
               src={eCommerceImg}
               alt="E Commerce"
-              className="max-h-[500px] w-full object-cover object-center-top drop-shadow-xl hover:scale-95 transition-all duration-300"
+              className="w-full h-80 object-cover object-center-top drop-shadow-xl hover:scale-95 transition-all duration-300"
             />
           </a>
         </div>
