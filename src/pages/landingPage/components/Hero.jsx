@@ -5,9 +5,9 @@ import bitmoJiIcon from "../../../../public/assets/bitmoji/bitmoJi.svg";
 function Hero() {
   return (
     <>
-      <section className="max-w-screen-2xl px-10 m-auto lg:px-40 sm:flex mt-10 md:mt-20">
-        <div className="w-full sm:w-1/2 flex justify-center sm:order-2">
-          <img src={bitmoJiIcon} alt="Image" className=" w-48 md:w-96" />
+      <section className="max-w-screen-2xl px-10 m-auto lg:px-40 sm:flex mt-10 md:mt-20 h-auto">
+        <div className="w-full sm:w-1/2 flex justify-center sm:order-2 overflow-x-hidden">
+          <img src={bitmoJiIcon} alt="Image" className=" w-52 md:w-96 " />
         </div>
         <div className=" w-full md:w-1/2">
           <p className=" text-base md:text-2xl font-medium mb-4">
@@ -25,9 +25,13 @@ function Hero() {
             <img src={gitIcon} alt="git hub" className="mr-7 w-11" />
             <img className="w-11" src={linkedInIcon} alt="LinkedIn" />
           </div>
-          <button className="text-white bg-myBlue px-5 py-4 font-bold">
+          <a
+            href="../../../../public/resume/Nandugokul_MEC_Resume.pdf"
+            download="Nandugokul_Resume_React"
+            className="text-white bg-myBlue px-5 py-4 font-bold inline-block"
+          >
             View resume
-          </button>
+          </a>
         </div>
       </section>
     </>
