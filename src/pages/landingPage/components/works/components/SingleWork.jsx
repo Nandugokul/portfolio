@@ -17,7 +17,7 @@ function SingleWork() {
             <img
               src={eCommerceImg}
               alt="E Commerce"
-              className="max-h-[500px] w-full object-cover object-center-top drop-shadow-xl"
+              className="max-h-[500px] w-full object-cover object-center-top drop-shadow-xl hover:scale-95 transition-all duration-300"
             />
           </a>
         </div>
