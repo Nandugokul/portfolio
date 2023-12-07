@@ -9,22 +9,28 @@ import reactIcon from "../../../../public/assets/icons/reactIcon.svg";
 function TechStack() {
   return (
     <>
-      <section className="max-w-screen-2xl px-40 m-auto mt-16">
+      <section className="max-w-screen-2xl px-10  lg:px-40 m-auto mt-10 lg:mt-16">
         <div className="flex">
-          <h4 className="mr-8 text-[2rem] font-semibold">Tech stack</h4>
+          <h4 className=" mr-4 md:mr-8 text-2xl md:text-[2rem] font-semibold">
+            Tech stack
+          </h4>
           <div className="flex-grow flex items-center overflow-hidden">
-            <div className="h-[1px] w-full border-t-[1px] border-black"></div>
+            <div className="h-[1px] w-full border-t-[1px] border-black/40"></div>
           </div>
         </div>
-        <div className="flex justify-between mt-11">
-          <img src={htmlIcon} alt="HTML" />
-          <img src={cssIcon} alt="CSS" />
-          <img src={jsIcon} alt="JavaScript" />
-          <img src={reactIcon} alt="React" />
-          <img src={reduxIcon} alt="Redux" />
-          <img src={tailWindIcon} alt="Tailwind Css" />
-          <img src={gaspIcon} alt="gsap" />
-          <img src={bootstrapIcon} alt="bootstrap" />
+        <div className=" grid grid-cols-4 place-items-center gap-y-8 md:flex justify-between mt-8 md:mt-11">
+          <img className="h-10 md:h-auto" src={htmlIcon} alt="HTML" />
+          <img className="h-10 md:h-auto" src={cssIcon} alt="CSS" />
+          <img className="h-10 md:h-auto" src={jsIcon} alt="JavaScript" />
+          <img className="h-10 md:h-auto" src={reactIcon} alt="React" />
+          <img className="h-10 md:h-auto" src={reduxIcon} alt="Redux" />
+          <img
+            className="h-6 md:h-auto"
+            src={tailWindIcon}
+            alt="Tailwind Css"
+          />
+          <img className="h-10 md:h-auto" src={gaspIcon} alt="gsap" />
+          <img className="h-8 md:h-auto" src={bootstrapIcon} alt="bootstrap" />
         </div>
       </section>
     </>
