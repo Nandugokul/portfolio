@@ -27,7 +27,7 @@ function Hero() {
           </div>
           <a
             href="../../../../public/resume/Nandugokul_MEC_Resume.pdf"
-            download="Nandugokul_Resume_React"
+            target="_blank"
             className="text-white bg-myBlue px-5 py-4 font-bold inline-block"
           >
             View resume

@@ -1,5 +1,8 @@
 import gitBlueIcon from "../../../../../../public/assets/icons/gitBlue.svg";
 import eCommerceImg from "../../../../../../public/assets/works/eCommerce.jpg";
+import liveDemoIcon from "../../../../../../public/assets/icons/liveDemo.svg";
+import gitIconWhite from "../../../../../../public/assets/icons/gitHubFooterIcon.svg";
+import liveDemoWhite from "../../../../../../public/assets/icons/liveDemoWhiteIcon.svg";
 function SingleWork() {
   return (
     <>
@@ -28,9 +31,37 @@ function SingleWork() {
               A concise eCommerce platform using React and Tailwind CSS,
               showcasing my strong proficiency in React development.
             </p>
-            <div className="flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8">
-              <h4 className="text-2xl font-bold text-myBlue">View code</h4>
-              <img className="ml-4" src={gitBlueIcon} alt="View Code" />
+            <div className="flex space-x-3">
+              <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
+                <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
+                  Live demo
+                </h4>
+                <img
+                  className="ml-4 group-hover:hidden w-6"
+                  src={liveDemoIcon}
+                  alt="Live demo"
+                />
+                <img
+                  src={liveDemoWhite}
+                  alt="Live Demo"
+                  className="ml-4 hidden group-hover:block w-6"
+                />
+              </div>
+              <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
+                <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
+                  View code
+                </h4>
+                <img
+                  className="ml-4  group-hover:hidden"
+                  src={gitBlueIcon}
+                  alt="View Code"
+                />
+                <img
+                  src={gitIconWhite}
+                  alt="Git Hub"
+                  className="ml-4 hidden group-hover:block"
+                />
+              </div>
             </div>
           </div>
         </div>
