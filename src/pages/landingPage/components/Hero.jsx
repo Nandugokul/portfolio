@@ -22,8 +22,22 @@ function Hero() {
           </p>
           <p className="text-4xl md:text-6xl font-semibold">developer</p>
           <div className="flex my-6 md:my-12">
-            <img src={gitIcon} alt="git hub" className="mr-7 w-11" />
-            <img className="w-11" src={linkedInIcon} alt="LinkedIn" />
+            <a
+              href="https://github.com/Nandugokul"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <img src={gitIcon} alt="git hub" className="mr-7 w-11" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/nandugokulkn/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="cursor-pointer"
+            >
+              <img className="w-11" src={linkedInIcon} alt="LinkedIn" />
+            </a>
           </div>
           <a
             href="../../../../public/resume/Nandugokul_MEC_Resume.pdf"
