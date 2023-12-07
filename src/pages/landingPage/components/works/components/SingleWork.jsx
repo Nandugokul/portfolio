@@ -8,11 +8,18 @@ function SingleWork() {
     <>
       <section className=" md:flex mt-8 md:mt-14">
         <div className="w-full md:w-1/2 h-full">
-          <img
-            src={eCommerceImg}
-            alt="E Commerce"
-            className="max-h-[500px] w-full object-cover object-center-top drop-shadow-xl"
-          />
+          <a
+            href="https://simple-ecommerce.vercel.app/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="cursor-pointer"
+          >
+            <img
+              src={eCommerceImg}
+              alt="E Commerce"
+              className="max-h-[500px] w-full object-cover object-center-top drop-shadow-xl"
+            />
+          </a>
         </div>
         <div className="w-full md:w-1/2 md:pl-8">
           <h4 className="text-[2rem] mt-6 md:mt-0 font-semibold ">
@@ -32,36 +39,50 @@ function SingleWork() {
               showcasing my strong proficiency in React development.
             </p>
             <div className="flex space-x-3">
-              <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
-                <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
-                  Live demo
-                </h4>
-                <img
-                  className="ml-4 group-hover:hidden w-6"
-                  src={liveDemoIcon}
-                  alt="Live demo"
-                />
-                <img
-                  src={liveDemoWhite}
-                  alt="Live Demo"
-                  className="ml-4 hidden group-hover:block w-6"
-                />
-              </div>
-              <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
-                <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
-                  View code
-                </h4>
-                <img
-                  className="ml-4  group-hover:hidden"
-                  src={gitBlueIcon}
-                  alt="View Code"
-                />
-                <img
-                  src={gitIconWhite}
-                  alt="Git Hub"
-                  className="ml-4 hidden group-hover:block"
-                />
-              </div>
+              <a
+                href="https://simple-ecommerce.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
+                  <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
+                    Live demo
+                  </h4>
+                  <img
+                    className="ml-4 group-hover:hidden w-6"
+                    src={liveDemoIcon}
+                    alt="Live demo"
+                  />
+                  <img
+                    src={liveDemoWhite}
+                    alt="Live Demo"
+                    className="ml-4 hidden group-hover:block w-6"
+                  />
+                </div>
+              </a>
+              <a
+                href="https://github.com/Nandugokul/simple-ecommerce"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="cursor-pointer"
+              >
+                <div className="cursor-pointer flex px-5 py-3 border-2 border-myBlue border-solid w-fit mt-8 group hover:bg-myBlue transition-all duration-300">
+                  <h4 className="text-lg font-bold text-myBlue group-hover:text-white">
+                    View code
+                  </h4>
+                  <img
+                    className="ml-4  group-hover:hidden"
+                    src={gitBlueIcon}
+                    alt="View Code"
+                  />
+                  <img
+                    src={gitIconWhite}
+                    alt="Git Hub"
+                    className="ml-4 hidden group-hover:block"
+                  />
+                </div>
+              </a>
             </div>
           </div>
         </div>
