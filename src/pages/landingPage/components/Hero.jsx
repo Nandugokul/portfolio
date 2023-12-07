@@ -1,6 +1,7 @@
 import gitIcon from "../../../../public/assets/icons/gitIcon.svg";
 import linkedInIcon from "../../../../public/assets/icons/linkedInIcon.svg";
 import bitmoJiIcon from "../../../../public/assets/bitmoji/bitmoJi.svg";
+import resume from "../../../../public/resume/Nandugokul_MEC_Resume.pdf";
 
 function Hero() {
   return (
@@ -40,8 +41,9 @@ function Hero() {
             </a>
           </div>
           <a
-            href="../../../../public/resume/Nandugokul_MEC_Resume.pdf"
+            href={resume}
             target="_blank"
+            rel="noopener noreferrer"
             className="text-white bg-myBlue px-5 py-4 font-bold inline-block"
           >
             View resume
