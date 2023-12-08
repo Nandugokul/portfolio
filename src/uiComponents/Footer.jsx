@@ -15,7 +15,7 @@ function Footer() {
               href="https://github.com/Nandugokul"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex cursor-pointer"
+              className="flex cursor-pointer w-fit"
             >
               <img src={gitIcon} alt="Git hub" />
               <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white ml-4">
@@ -26,7 +26,7 @@ function Footer() {
               href="https://www.linkedin.com/in/nandugokulkn/"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex cursor-pointer"
+              className="flex cursor-pointer w-fit"
             >
               <img src={linkedInIcon} alt="LinkedIn" />
               <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white ml-4">
@@ -37,14 +37,14 @@ function Footer() {
               href="mailto:nandugokul.mec@gmail.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="flex cursor-pointer"
+              className="flex cursor-pointer w-fit"
             >
               <img src={mailIcon} alt="Mail" />
               <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white ml-4">
                 nandugokul.mec@gmail.com
               </p>
             </a>
-            <a href="tel:+918547360968" className="flex">
+            <a href="tel:+918547360968" className="flex w-fit">
               <img src={phoneIcon} alt="Phone icon" />
               <p className="text-lg sm:text-xl md:text-2xl font-semibold text-white ml-4">
                 +91 854 7360 968
