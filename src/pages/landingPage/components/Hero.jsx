@@ -1,7 +1,7 @@
 import gitIcon from "../../../../public/assets/icons/gitIcon.svg";
 import linkedInIcon from "../../../../public/assets/icons/linkedInIcon.svg";
 import bitmoJiIcon from "../../../../public/assets/bitmoji/bitmoJi.svg";
-import resume from "../../../../public/resume/Nandugokul_MEC_Resume.pdf";
+import resume from "../../../../public/resume/Nandugokul_React_Resume.pdf";
 
 function Hero() {
   return (
