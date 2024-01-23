@@ -1,5 +1,5 @@
 import SingleWork from "./components/SingleWork";
-
+import Data from "../../../../data/Data";
 function Works() {
   return (
     <>
@@ -12,7 +12,22 @@ function Works() {
             <div className="h-[1px] w-full border-t-[1px] border-black/40"></div>
           </div>
         </div>
-        <SingleWork />
+        {Data.map((item) => {
+          return (
+            <SingleWork
+              key={item.demoLink}
+              heading={item.heading}
+              image={item.image}
+              badge1={item.badge1}
+              badge1Color={item.badge1Color}
+              badge2={item.badge2}
+              badge2Color={item.badge2Color}
+              description={item.description}
+              demoLink={item.demoLink}
+              gitHubLink={item.gitHubLink}
+            />
+          );
+        })}
       </section>
     </>
   );

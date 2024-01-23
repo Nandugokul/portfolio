@@ -5,7 +5,7 @@ import linkedInIcon from "../../public/assets/icons/linkedInFotterIcon.svg";
 function Footer() {
   return (
     <>
-      <section className="bg-myBlue mt-16 py-40">
+      <section className="bg-myBlue mt-12 py-40">
         <div className="max-w-screen-2xl px-10 md:px-40 m-auto flex flex-col lg:flex-row items-center justify-between">
           <h1 className="text-white text-6xl md:text-8xl font-extrabold">
             Say hello.
