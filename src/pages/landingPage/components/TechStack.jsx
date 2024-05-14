@@ -8,6 +8,8 @@ import bootstrapIcon from "../../../../public/assets/icons/bootstrapIcon.svg";
 import reactIcon from "../../../../public/assets/icons/reactIcon.svg";
 import tsIcon from "../../../../public/assets/icons/tsIcon.svg";
 import nextJsIcon from "../../../../public/assets/icons/nextJsIcon.svg";
+import scssIcon from "../../../../public/assets/icons/scssIcon.svg";
+
 function TechStack() {
   return (
     <>
@@ -24,16 +26,16 @@ function TechStack() {
           <img className="h-10 md:h-16" src={htmlIcon} alt="HTML" />
           <img className="h-10 md:h-16" src={cssIcon} alt="CSS" />
           <img className="h-10 md:h-16" src={jsIcon} alt="JavaScript" />
-          <img className="h-10 md:h-16" src={tsIcon} alt="JavaScript" />
-
+          <img className="h-10 md:h-16" src={tsIcon} alt="TypeScript" />
           <img className="h-10 md:h-16" src={reactIcon} alt="React" />
-          <img className="h-10 md:h-16" src={nextJsIcon} alt="React" />
+          <img className="h-10 md:h-16" src={nextJsIcon} alt="Next" />
           <img className="h-10 md:h-16" src={reduxIcon} alt="Redux" />
           <img
             className="h-6 md:h-auto"
             src={tailWindIcon}
             alt="Tailwind Css"
           />
+          <img className="h-6 md:h-auto" src={scssIcon} alt="sass" />
           <img className="h-10 md:h-auto" src={gaspIcon} alt="gsap" />
           <img className="h-8 md:h-auto" src={bootstrapIcon} alt="bootstrap" />
         </div>
