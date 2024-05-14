@@ -1,5 +1,6 @@
 import SingleWork from "./components/SingleWork";
 import Data from "../../../../data/Data";
+import ReactCurvedText from "react-curved-text";
 function Works() {
   return (
     <>
@@ -12,7 +13,7 @@ function Works() {
             <div className="h-[1px] w-full border-t-[1px] border-black/40"></div>
           </div>
         </div>
-        {Data.map((item) => {
+        {/* {Data.map((item) => {
           return (
             <SingleWork
               key={item.demoLink}
@@ -27,7 +28,30 @@ function Works() {
               gitHubLink={item.gitHubLink}
             />
           );
-        })}
+        })} */}
+
+        <div className="flex items-center justify-center mt-8">
+          <div className="rotatingText w-fit ">
+            <ReactCurvedText
+              width={300}
+              height={300}
+              cx={150}
+              cy={150}
+              rx={110}
+              ry={110}
+              startOffset={50}
+              reversed={false}
+              text="New projects coming soon !!! 😎"
+              textProps={{
+                style: { fontSize: 24, letterSpacing: 10, fontWeight: 700 },
+              }}
+              textPathProps={null}
+              tspanProps={null}
+              ellipseProps={null}
+              svgProps={null}
+            />
+          </div>
+        </div>
       </section>
     </>
   );

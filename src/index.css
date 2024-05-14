@@ -5,3 +5,20 @@
 html {
   font-family: "Urbanist", sans-serif;
 }
+
+.rotatingText {
+  animation-name: rotateText;
+  animation-duration: 10s; /* Adjust speed as needed */
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  border-radius: 50%;
+}
+
+@keyframes rotateText {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
